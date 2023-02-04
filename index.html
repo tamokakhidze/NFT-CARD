@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #0D192C;
+            position: relative;
+
+        }
+
+        .Rectangle {
+            position: absolute;
+            background-color: #15263F;
+            border-radius: 15px;
+            box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+            width: 350px;
+            height: 596px;
+        
+            transition: 2s;
+            top: 320px;
+            left: 0px;
+            right: 0px;
+            bottom: 30px;
+            margin: auto;
+            
+            
+            
+
+        }
+
+        .Rectangle:hover {
+        
+            box-shadow: 0  0 60px #3e3e66;
+            transform: scale(1.1);
+            
+
+            
+            
+        }
+        .oval:hover {
+            transform: scale(1.6);
+        }
+
+        .image-equilibrium {
+            height: 302px;
+            width: 302px;
+            left: 24px;
+            top: 24px;
+            border-radius: 8px;
+            position: absolute;
+            transition: 2s;
+
+        }
+
+        .image-equilibrium:hover {
+        -ms-transform: scale(1.103);
+        -webkit-transform: scale(1.103); 
+        transform: scale(1.103); 
+
+        }
+
+        h1 {
+            position: absolute;
+            left: 6.86%;
+            right: 6.86%;
+            top: 58.72%;
+            bottom: 36.58%;
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 28px;
+            color: white;
+        }
+
+        h1:hover {
+            color: cyan;
+        }
+
+        p {
+            width: 302px;
+            height: 52px;
+            top: 394px;
+            left: 24px;
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 26px;
+            color: #8BACD9;
+            position: absolute;
+            left: 6.86%;
+            right: 6.86%;
+            top: calc(50% - 52px/2 + 122px);
+        }
+
+        .icon1 {
+            position: absolute;
+            height: 18px;
+            width: 11px;
+            right: 88.23%;
+            top: 18%;
+            bottom: 5%;
+            
+
+        }
+
+        .p1 {
+            position: absolute;
+            height: 20px;
+            left: 18.7%;
+            right: 1.07%;
+            top: calc(50% - 40px/2);
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            width: 75px;
+            color: cyan;
+
+        }
+
+        .clock {
+            
+            position: absolute;
+            left: 66.99%;
+            right: 27.58%;
+            top: 20.04%;
+            bottom: 13.3%;
+
+
+        }
+
+        .p2 {
+            position: absolute;
+            height: 20px;
+            left: 234px;
+            right: 0.33%;
+            top: calc(50% - 42px/2);
+
+            
+
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+
+            
+
+            color: #8BACD9;
+        }
+
+        .line {
+            width: 302px;
+            height: 1px;
+            top: 514px;
+            left: 24px;
+            position: absolute;
+            bottom: 13.59%;
+            background-color: #2E405A;
+        }
+
+        .group2 {
+            position: absolute;
+            height: 33px;
+            width: 230px;
+            left: 15px;
+            top: 510px;
+            
+
+        }
+
+        .oval {
+            box-sizing: border-box;
+            position: absolute;
+            left: 6.86%;
+            right: 88%;
+            top: 89.09%;
+            bottom: 5.37%;
+            border: 1px solid #FFFFFF;
+            height: 33px;
+            width: 33px;
+            border-radius: 50%;
+            transition: 2s;
+            
+            
+
+                    }
+
+        .group4 {
+            height: 20px;
+            width: 301px;
+            left: 24px;
+            top: 470px;
+            border-radius: 0px;
+            position: absolute;
+            left: 6.86%;
+            right: 7.14%;
+            top: 78.86%;
+            bottom: 17.79%;
+
+
+        }
+
+        .clockdiv {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            left: 203.3px;
+            top: 2.67px;
+        }
+
+        .group3 {
+            height: 20px;
+            width: 93.48479461669922px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            right: 68.94%;
+            bottom: 0%;
+
+        }
+
+        .group {
+            position: absolute;
+            height: 20px;
+            width: 181px;
+            left: 73px;
+            top: 34px;
+            border-radius: 0px;
+            right: 27.43%;
+            bottom: 6.54%;
+
+
+        }
+
+        .creation {
+            position: absolute;
+            height: 20px;
+            left: 0%;
+            right: 51.25%;
+            top: calc(50% - 53px/2);
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #8BACD9;
+        }
+
+        .p2:hover {
+            color: cyan;
+        }
+
+        .span {
+            background-color: none;
+
+        }
+
+        .span:hover {
+            color: cyan;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="Rectangle">
+        <img src="images/image-equilibrium.jpg" alt="equilibrium" class="image-equilibrium">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="group4">
+        <div class="group3">
+        <img src="images/icon-ethereum.svg" alt="icon" class="icon1"> <p class="p1">0.041 ETH</p>
+        </div>
+        <div class="clockdiv"> 
+        <img src="images/icon-clock.svg" alt="clock icon" class="clock">
+            </div>  <p class="p2">3 days left</p>
+
+        </div>
+
+
+        <div class="line"></div>
+
+        <div class="group2">
+                <img src="images/image-avatar.png" alt="" class="oval">
+
+                <div class="group">
+                    <p class="creation">Creation of <span style="color: white; "; class="span">Jules Wyvern</span></p>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
